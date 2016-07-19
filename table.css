@@ -6,6 +6,7 @@ body {
   font-size: 16px;
   font-weight: 400;
   text-rendering: optimizeLegibility;
+  word-break: keep-all;
 }
 
 div.table-title {
@@ -33,7 +34,7 @@ div.table-title {
   background: white;
   border-radius:3px;
   border-collapse: collapse;
-  height: 320px;
+  height: auto;
   margin: auto;
   max-width: 600px;
   padding:5px;
